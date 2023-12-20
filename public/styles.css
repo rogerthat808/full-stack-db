@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
