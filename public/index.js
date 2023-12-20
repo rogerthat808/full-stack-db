@@ -1,5 +1,5 @@
 let cardElement = $('.card');
-let input = $('.input');
+// let input = $('.input');
 let submit = $('.submit');
 
 const rogerButton = $("#roger")
@@ -43,8 +43,8 @@ async function fetchDevData() {
 
 async function postNote() {
     try {
-        let text = input.val()
-        let newNote = await $.post('/roger', {note_text: text});
+        let text = $(".input").val()
+        let newNote = await $.post('/roger', { note_text: text });
         console.log(newNote)
     } catch (err) {
         console.error(err)
